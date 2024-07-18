@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 94, 61);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tictitle-font {
+    font-size: 8vw;
+    margin-top: 30px;
+    font-weight: 900;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#allbox {
+    /* background-color: brown; */
+    height: 69vmin;
+    width: 69vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: bisque;
+    height: 22vmin;
+    width: 22vmin;
+    border-radius: 10px;
+    border: none;
+    font-size: 20vmin;
+    color: rgb(43, 0, 83);
+
+}
+
+@media screen and (max-width: 450px) {
+    #allbox {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+#resetbtn {
+    margin-top: 20px;
+    background-color: rgb(30, 0, 72);
+    color: rgb(154, 154, 154);
+    height: 10vmin;
+    width: 20vh;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+#newbtn{
+    margin-top: 20px;
+    background-color: rgb(30, 0, 72);
+    color: rgb(154, 154, 154);
+    height: 10vmin;
+    width: 20vh;
+    font-size: larger;
+    border-radius: 10px;
+}
+#msg{
+    margin-top: 30px;
+    font-size: 8vmin;
+    display: none;
+    color:rgb(255, 251, 0);
+}
