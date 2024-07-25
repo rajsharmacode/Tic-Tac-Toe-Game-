@@ -29,7 +29,7 @@ allboxclass.forEach((data) => {
         data.disabled = true;
         let iswiner = winer();
         count++;
-        if (count === 9) {
+        if (count === 9 && !iswiner) {
             count = 0;
             drawGame();
         }
